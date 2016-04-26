@@ -1,0 +1,12 @@
+$line-height-default: 1.5em;
+$border-color: #4ea0d8;
+
+$vendor-prefixes: moz, webkit, o, ms;
+
+
+////// Form
+%form-shared{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+$form-line: #d3d3d3 solid 1px;
