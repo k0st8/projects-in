@@ -1,0 +1,216 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#form-header, #form-footer {
+  margin-bottom: 20px;
+  padding-bottom: 10px; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  line-height: 1.5em; }
+
+#container {
+  width: 70%;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: auto; }
+
+p {
+  margin: 10px 0;
+  line-height: 1.5em; }
+
+h1 {
+  font-size: 39px;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+  line-height: 1.2em; }
+
+h3 {
+  font-size: 29px; }
+
+h4 {
+  font-size: 19px; }
+
+h3, h4 {
+  margin: 10px 0; }
+
+strong {
+  font-weight: bold; }
+
+.clearfix {
+  clear: both; }
+
+header#main-header {
+  border-bottom: 4px solid #4ea0d8; }
+
+#logo {
+  margin: auto;
+  display: block; }
+
+#main-text {
+  text-align: center;
+  color: #333;
+  padding: 10px;
+  margin-bottom: 20px; }
+
+article {
+  float: left;
+  width: 48%; }
+  article footer {
+    border-top: #ddd solid 1px;
+    margin-bottom: 20px;
+    padding-bottom: 10px; }
+
+aside {
+  float: right;
+  width: 48%; }
+
+.points li {
+  margin-bottom: 30px; }
+.points img {
+  float: left;
+  margin-right: 7px; }
+.points h4 {
+  padding-top: 5px; }
+
+#contact-form {
+  padding: 10px 15px 15px 15px;
+  border: 4px solid #4ea0d8;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  overflow: auto;
+  background: #f4f4f4; }
+  #contact-form div {
+    margin-bottom: 20px; }
+  #contact-form label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold; }
+  #contact-form input:not([type="submit"]) {
+    border: #ccc 1px solid;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    height: 25px;
+    width: 65%; }
+  #contact-form input[type="submit"] {
+    padding: 12px 17px;
+    color: #fff;
+    background: #fa6e3e;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    float: right;
+    border: 0;
+    display: block; }
+    #contact-form input[type="submit"]:hover {
+      background: #d55427;
+      cursor: pointer; }
+  #contact-form #form-footer {
+    text-align: center;
+    color: #667;
+    font-style: italic;
+    font-size: 80%; }
+
+#form-header {
+  border-bottom: #d3d3d3 solid 1px; }
+
+#form-footer {
+  border-top: #d3d3d3 solid 1px; }
+
+#testimonial {
+  margin: 40px 0;
+  font-style: italic;
+  color: #667; }
+  #testimonial img {
+    float: left;
+    margin-right: 2%; }
+
+footer#main-footer {
+  text-align: center;
+  border: #ccc solid 1px; }
+
+@media (max-width: 960px) {
+  #container {
+    width: 80%; }
+
+  h1 {
+    font-size: 33px; }
+
+  article, aside {
+    float: none;
+    width: 100%; }
+
+  .points li {
+    background: #eee;
+    padding: 8px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px; }
+  .points img {
+    margin-top: 7px; }
+
+  #testimonial img {
+    float: none;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px; } }
+@media (max-width: 568px) {
+  h1 {
+    font-size: 22px; } }
+
+/*# sourceMappingURL=main.css.map */

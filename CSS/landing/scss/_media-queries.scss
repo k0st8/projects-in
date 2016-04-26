@@ -1,0 +1,37 @@
+@media (max-width: 960px){
+    #container{
+        width: 80%;
+    }
+    h1{
+        font-size: 33px;
+    }
+    article, aside{
+        float: none;
+        width: 100%;
+    }
+    .points{
+        li{
+            background: #eee;
+            padding: 8px;
+            @include prefix2(border-radius, 5px, $vendor-prefixes);
+        }
+        img{
+            margin-top: 7px;
+        }
+    }
+    
+    #testimonial{
+        img{
+            float: none;
+            margin: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 568px){
+    h1{
+        font-size: 22px;
+    }
+}

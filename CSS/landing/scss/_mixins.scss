@@ -1,0 +1,24 @@
+@mixin prefix($prop, $val, $prefix, $pre: ()){
+	
+	@each $prefix in $vendor-prefixes {
+		#{'-' + $prefix + '-' + $prop}: $val;
+	}
+	#{$prop}: $val;
+}
+
+@mixin prefix2($prop, $val, $prefix, $pre: null){
+	
+	@if $pre != null {
+		@each $prefix in $vendor-prefixes {
+			#{$pre}:-#{$prefix}-#{$prop + "\(" + $val + "\)"};
+		}
+		#{$pre}:#{$prop + "\(" + $val + "\)"};	
+	}
+	@else {
+		@each $prefix in $vendor-prefixes {
+			#{'-' + $prefix + '-' + $prop}: $val;
+		}
+		#{$prop}: $val;
+	}
+	
+}
